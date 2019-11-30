@@ -4,7 +4,7 @@ const colors = require('colors')
 const config = require('./config1.json');
 const game = require('./config2.json');
 const figlet = require('figlet');
-const token = "mfa.wp2g9bikZZlPnAyW8YVsZuCB0I9l02bkkbIK4DTHi7tro6Pf8rTziVehB1tCTUjIhfwJL12vjp4iPBzkqI9y"
+const token = config.Token
 const prefix = config.prefix
 
 
