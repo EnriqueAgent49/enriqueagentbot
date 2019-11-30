@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const colors = require('colors')
-const config = require('./config/config1.json');
-const game = require('./config/config2.json');
+const config = require('./config1.json');
+const game = require('./config2.json');
 const figlet = require('figlet');
 const token = "mfa.wp2g9bikZZlPnAyW8YVsZuCB0I9l02bkkbIK4DTHi7tro6Pf8rTziVehB1tCTUjIhfwJL12vjp4iPBzkqI9y"
 const prefix = config.prefix
